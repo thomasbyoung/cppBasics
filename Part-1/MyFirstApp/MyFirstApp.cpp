@@ -12,12 +12,20 @@ using namespace std; //namespace so do not need to use 'std::'
 //    system("pause>0");
 //}
 
+//
+
 int main()
 {
     //Basic's of variables
 
-    int red = 24;
-    cout << red;
+    float annualSalary;
+    cout << "Please enter your annual salary: ";
+    cin >> annualSalary;
+    float monthlySalary = annualSalary / 12;
+
+    cout << "Your monthly salary is " << monthlySalary;
+
+    char character = 'a';
 
     system("pause>0");
 }
