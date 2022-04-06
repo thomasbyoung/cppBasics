@@ -12,7 +12,7 @@ using namespace std; //namespace so do not need to use 'std::'
 //    system("pause>0");
 //}
 
-//
+// tutorial checkpoint 29:00
 
 int main()
 {
